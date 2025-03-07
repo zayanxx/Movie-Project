@@ -28,7 +28,7 @@ const Navbar = () => {
         {/* Logo */}
         <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}>
           <Link to="/" className="text-2xl font-bold flex items-center hover:text-yellow-400 transition duration-300">
-            🎬 MovieSearch
+            🎬 Zayan Movie
           </Link>
         </motion.div>
 
