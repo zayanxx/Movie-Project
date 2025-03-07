@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { FaHeart, FaRegHeart, FaTicketAlt, FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
-import movieService from "../context/movieService";
+import movieService from "../context/MovieService";
 
 const MovieDetails = () => {
   const { id } = useParams();
