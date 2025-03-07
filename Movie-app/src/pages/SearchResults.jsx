@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"; 
 import { useNavigate, useSearchParams } from "react-router-dom";
-import movieService from "../context/movieService";
+import movieService from "../context/MovieService";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { FaSpinner, FaArrowLeft } from "react-icons/fa";
