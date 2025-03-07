@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FaFire, FaStar, FaCalendarAlt } from "react-icons/fa";
 import MovieCard from "../components/MovieCard";
 import { useEffect, useState } from "react";
-import movieService from "../context/movieService";
+import movieService from "../context/MovieService";
 
 const HomePage = () => {
   const [movies, setMovies] = useState([]);
